@@ -34,4 +34,5 @@ The dataset used for this project is publicly available on Kaggle:
 - Create interactive Tableau dashboards to visualize findings.
 - Discuss model performance and potential business use cases.
 
+## 🔍 Key Insights
 
