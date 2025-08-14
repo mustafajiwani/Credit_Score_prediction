@@ -37,6 +37,7 @@ The dataset used for this project is publicly available on Kaggle:
 
 ## 🔍 Key Insights
 ### Python & Machine Learning Findings
+
 - Random Forest Classifier was trained on reduced features after feature selection (ANOVA, Chi-square, VIF, feature importance).
 - Achieved strong accuracy and F1-score on training data, showing the model can effectively classify credit scores into Good, Standard, and Poor categories.
 - **Validation Accuracy**: **`78%`**. See `model_evaluation.txt` for more.
@@ -98,9 +99,11 @@ The dataset used for this project is publicly available on Kaggle:
 
 ## 📈 Dashboards
 View full Tableau dashboards here:
+
 👉 [Tableau Public Workbook] (https://public.tableau.com/app/profile/mustafa.jiwani/viz/CreditScoreClassificationandAnalysis/FinancialProfile)
 
 ## 👤 Author
 Mustafa Jiwani – Data Analyst
+
 📫 [Connect with me on LinkedIn] (www.linkedin.com/in/mustamahemud-448318230)
  
