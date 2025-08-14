@@ -1,2 +1,2 @@
 # Credit_Score_prediction
-Exploratory Data Analysis (EDA), visualization, and machine learning modeling for credit score classification using Python, SQL, and Tableau.
+A complete, reproducible workflow that goes from data cleaning and modeling in Python, to SQL-based EDA for original vs. predicted credit scores, and Tableau dashboards for executive‑level storytelling.
