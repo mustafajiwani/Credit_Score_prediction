@@ -5,6 +5,19 @@ A complete, reproducible workflow that goes from data cleaning and modeling in P
 The dataset used for this project is publicly available on Kaggle:  
 [Credit Score Classification Dataset] ([https://www.kaggle.com/datasets/...](https://www.kaggle.com/datasets/parisrohan/credit-score-classification))
 
+# 🛠 Tools Used
+- Python: For data cleaning, exploratory data analysis (EDA), and machine learning (scikit-learn, pandas, seaborn, matplotlib).
+- SQL (MySQL): For querying and analyzing large datasets, including joins, aggregations, and window functions.
+- Tableau: For creating interactive visualizations and dashboards.
+- GitHub: For version control
+
+# 📂 Project Structure
+- `Credit_data_analysis` – All SQL queries used for analysis
+- `Credit_Score_analysis_II` – Python code for EDA and ML
+- `Credit Score Classification and Analysis Portfolio` – Tableau workbook with all dashboards
+- `dashboard_screenshots` – PNG snapshots of the Tableau dashboards
+- `pythonplots` - PNG snapshots of significant python visualizations
+
 # 📌 Project Overview
 - Classify customers into credit score categories (e.g., Poor / Standard / Good). Because the public test set does not include original credit scores, we validate predictions by checking whether predicted scores in the test set preserve the same relationships seen in the train set across demographics and financial behaviors.
 - This project focuses on analyzing customer financial and demographic data to classify credit scores and identify factors that influence them.
@@ -20,18 +33,5 @@ The dataset used for this project is publicly available on Kaggle:
 - Train and evaluate a Random Forest Classifier to predict credit scores.
 - Create interactive Tableau dashboards to visualize findings.
 - Discuss model performance and potential business use cases.
-
-# 🛠 Tools & Technologies
-- Python: For data cleaning, exploratory data analysis (EDA), and machine learning (scikit-learn, pandas, seaborn, matplotlib).
-- SQL (MySQL): For querying and analyzing large datasets, including joins, aggregations, and window functions.
-- Tableau: For creating interactive visualizations and dashboards.
-- GitHub: for version control
-
-# 📂 Project Structure
-- `Credit_data_analysis` – All SQL queries used for analysis
-- `Credit_Score_analysis_II` – Python code for EDA and ML
-- `Credit Score Classification and Analysis Portfolio` – Tableau workbook with all dashboards
-- `dashboard_screenshots` – PNG snapshots of the Tableau dashboards
-- `pythonplots` - PNG snapshots of significant python visualizations
 
 
