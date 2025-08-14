@@ -3,7 +3,7 @@ A complete, reproducible workflow that goes from data cleaning and modeling in P
 
 ## Dataset
 The dataset used for this project is publicly available on Kaggle:  
-[Credit Score Classification Dataset]([https://www.kaggle.com/datasets/...](https://www.kaggle.com/datasets/parisrohan/credit-score-classification)).
+[Credit Score Classification Dataset] ([https://www.kaggle.com/datasets/...](https://www.kaggle.com/datasets/parisrohan/credit-score-classification))
 
 # 📌 Project Overview
 - This project focuses on analyzing customer financial and demographic data to classify credit scores and identify factors that influence them.
