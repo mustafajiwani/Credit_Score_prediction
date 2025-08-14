@@ -98,10 +98,10 @@ The dataset used for this project is publicly available on Kaggle:
 - Expand dataset with external economic indicators.
 
 ## 📈 Dashboards
-View full Tableau dashboards here:
+View full Tableau dashboards here:  
 👉 [Tableau Public Workbook] (https://public.tableau.com/app/profile/mustafa.jiwani/viz/CreditScoreClassificationandAnalysis/FinancialProfile)
 
 ## 👤 Author
-Mustafa Jiwani – Data Analyst
+Mustafa Jiwani – Data Analyst  
 📫 [Connect with me on LinkedIn] (www.linkedin.com/in/mustamahemud-448318230)
  
