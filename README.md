@@ -83,3 +83,5 @@ The dataset used for this project is publicly available on Kaggle:
   
 - Random Forest model validated with accuracy/confusion matrix on train/validation sets.
 - Side-by-side analysis in SQL + Tableau confirms behavioral patterns and distributions of predicted test set align with original train data.
+
+**`Conclusion`**: Predicted credit scores preserve the same demographic and financial patterns as the train set, providing qualitative validation in absence of test labels.
