@@ -85,3 +85,9 @@ The dataset used for this project is publicly available on Kaggle:
 - Side-by-side analysis in SQL + Tableau confirms behavioral patterns and distributions of predicted test set align with original train data.
 
 **`Conclusion`**: Predicted credit scores preserve the same demographic and financial patterns as the train set, providing qualitative validation in absence of test labels.
+
+# 🧩 How This Project Ties Together
+- Python ensures clean, well‑engineered data and a validated model.
+- SQL provides auditable, slice‑wise comparisons of original vs. predicted credit scores.
+- Tableau communicates the findings through clear dashboards that confirm whether predictions behave like labeled data across demographics and behaviors.
+- In absence of ground‑truth labels for the test set, this combined approach gives a responsible and transparent qualitative validation of predictions.
