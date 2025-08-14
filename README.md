@@ -51,7 +51,7 @@ The dataset used for this project is publicly available on Kaggle:
 
 **Tableau Observations**
 
-- Demographics & Financial Profiles
+`Demographics & Financial Profiles`
   
 - Age Distribution: Customers aged 30–40 are the largest group (34.2%), followed by 18–30 (31.8%).
 - Occupation: Lawyers are slightly overrepresented, but other occupations are fairly balanced.
@@ -59,7 +59,7 @@ The dataset used for this project is publicly available on Kaggle:
 - Credit Mix & Payment Behavior: Standard credit mix dominates. Good credit mix → higher EMIs; Bad credit mix → more inquiries.
 - Credit Utilization: Most customers fall in moderate usage (30–60%), with 36.5% in low usage (<30%).
 
-- Credit Score Distribution & Predictive Alignment
+`Credit Score Distribution & Predictive Alignment`
 
 - Overall: Standard credit score is most common; distribution is preserved between train and predicted test sets.
 - Poor: 28.99% (Train) | 27.70% (Test)
@@ -69,7 +69,7 @@ The dataset used for this project is publicly available on Kaggle:
 - By Occupation: Engineers have relatively higher Poor credit proportion; Journalists have higher Good proportion.
 - By Income: Higher income (100k–500k) → higher Good score percentage.
 
-- Behavioral & Risk Indicators
+`Behavioral & Risk Indicators`
   
 - Repayment Delays: Good credit scores correlate with fewer delayed payments; Poor scores correlate with more delays.
 - Spending & Debt: Good scores → higher salary, lower debt; Poor scores → lower salary, higher debt.
@@ -79,7 +79,7 @@ The dataset used for this project is publicly available on Kaggle:
 - EMI & Investments: Good scores → higher EMI & investments; Poor scores → lower EMI & investments.
 - High-Risk vs Low-Risk Habits: Low-risk (Good score) customers have fewer delayed payments, fewer loans, and slightly lower credit utilization than Medium/High-risk customers.
 
-- Model Validation
+`Model Validation`
   
 - Random Forest model validated with accuracy/confusion matrix on train/validation sets.
 - Side-by-side analysis in SQL + Tableau confirms behavioral patterns and distributions of predicted test set align with original train data.
