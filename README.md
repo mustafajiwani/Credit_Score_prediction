@@ -49,7 +49,8 @@ The dataset used for this project is publicly available on Kaggle:
   `Delay_from_due_date`
   `Changed_Credit_Limit`
 
-  **Tableau Observations**
+**Tableau Observations**
+
 - Demographics & Financial Profiles
   
 - Age Distribution: Customers aged 30–40 are the largest group (34.2%), followed by 18–30 (31.8%).
