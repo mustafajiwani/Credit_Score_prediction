@@ -6,10 +6,10 @@ The dataset used for this project is publicly available on Kaggle:
 [Credit Score Classification Dataset] ([https://www.kaggle.com/datasets/...](https://www.kaggle.com/datasets/parisrohan/credit-score-classification))
 
 # 🛠 Tools Used
-- Python: For data cleaning, exploratory data analysis (EDA), and machine learning (scikit-learn, pandas, seaborn, matplotlib).
-- SQL (MySQL): For querying and analyzing large datasets, including joins, aggregations, and window functions.
-- Tableau: For creating interactive visualizations and dashboards.
-- GitHub: For version control
+- **Python**: For data cleaning, exploratory data analysis (EDA), and machine learning (scikit-learn, pandas, seaborn, matplotlib).
+- **SQL (MySQL)**: For querying and analyzing large datasets, including joins, aggregations, and window functions.
+- **Tableau**: For creating interactive visualizations and dashboards.
+- **GitHub**: For version control
 
 # 📂 Project Structure
 - `Credit_data_analysis` – All SQL queries used for analysis
