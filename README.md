@@ -39,7 +39,7 @@ The dataset used for this project is publicly available on Kaggle:
 ### Python & Machine Learning Findings
 - Random Forest Classifier was trained on reduced features after feature selection (ANOVA, Chi-square, VIF, feature importance).
 - Achieved strong accuracy and F1-score on training data, showing the model can effectively classify credit scores into Good, Standard, and Poor categories.
-- Validation Accuracy: **`78%`**. See `model_evaluation.txt` for more.
+- **Validation Accuracy**: **`78%`**. See `model_evaluation.txt` for more.
 - Top predictive features included:
   
   `Outstanding_Debt`
@@ -53,31 +53,31 @@ The dataset used for this project is publicly available on Kaggle:
 
 #### Demographics & Financial Profiles
   
-- Age Distribution: Customers aged 30–40 are the largest group (34.2%), followed by 18–30 (31.8%).
-- Occupation: Lawyers are slightly overrepresented, but other occupations are fairly balanced.
-- Income: Majority of customers earn <50k annually (62.7%).
-- Credit Mix & Payment Behavior: Standard credit mix dominates. Good credit mix → higher EMIs; Bad credit mix → more inquiries.
-- Credit Utilization: Most customers fall in moderate usage (30–60%), with 36.5% in low usage (<30%).
+- **Age Distribution**: Customers aged 30–40 are the largest group (34.2%), followed by 18–30 (31.8%).
+- **Occupation**: Lawyers are slightly overrepresented, but other occupations are fairly balanced.
+- **Income**: Majority of customers earn <50k annually (62.7%).
+- **Credit Mix & Payment Behavior**: Standard credit mix dominates. Good credit mix → higher EMIs; Bad credit mix → more inquiries.
+- **Credit Utilization**: Most customers fall in moderate usage (30–60%), with 36.5% in low usage (<30%).
 
 #### Credit Score Distribution & Predictive Alignment
 
-- Overall: Standard credit score is most common; distribution is preserved between train and predicted test sets.
-- Poor: 28.99% (Train) | 27.70% (Test)
-- Standard: 53.15% | 56.05%
-- Good: 17.86% | 16.25%
-- By Age: Younger groups (10–18) have more Poor scores; 30–40 group has the highest Good scores. Train/test alignment is consistent.
-- By Occupation: Engineers have relatively higher Poor credit proportion; Journalists have higher Good proportion.
-- By Income: Higher income (100k–500k) → higher Good score percentage.
+- **Overall**: Standard credit score is most common; distribution is preserved between train and predicted test sets.
+    - Poor: 28.99% (Train) | 27.70% (Test)
+    - Standard: 53.15% | 56.05%
+    - Good: 17.86% | 16.25%
+- **By Age**: Younger groups (10–18) have more Poor scores; 30–40 group has the highest Good scores. Train/test alignment is consistent.
+- **By Occupation**: Engineers have relatively higher Poor credit proportion; Journalists have higher Good proportion.
+- **By Income**: Higher income (100k–500k) → higher Good score percentage.
 
 #### Behavioral & Risk Indicators
   
-- Repayment Delays: Good credit scores correlate with fewer delayed payments; Poor scores correlate with more delays.
-- Spending & Debt: Good scores → higher salary, lower debt; Poor scores → lower salary, higher debt.
-- Credit Utilization: Majority of customers have low utilization corresponding with better scores.
-- Credit History Age: Standard/Good score holders have 20–24 years of credit history.
-- Loan Activity: Avg loans generally increase as credit score decreases, except a slight anomaly in predicted Good credit test set (8.28 vs 5.44 in train).
-- EMI & Investments: Good scores → higher EMI & investments; Poor scores → lower EMI & investments.
-- High-Risk vs Low-Risk Habits: Low-risk (Good score) customers have fewer delayed payments, fewer loans, and slightly lower credit utilization than Medium/High-risk customers.
+- **Repayment Delays**: Good credit scores correlate with fewer delayed payments; Poor scores correlate with more delays.
+- **Spending & Debt**: Good scores → higher salary, lower debt; Poor scores → lower salary, higher debt.
+- **Credit Utilization**: Majority of customers have low utilization corresponding with better scores.
+- **Credit History Age**: Standard/Good score holders have 20–24 years of credit history.
+- **Loan Activity**: Avg loans generally increase as credit score decreases, except a slight anomaly in predicted Good credit test set (8.28 vs 5.44 in train).
+- **EMI & Investments**: Good scores → higher EMI & investments; Poor scores → lower EMI & investments.
+- **High-Risk vs Low-Risk Habits**: Low-risk (Good score) customers have fewer delayed payments, fewer loans, and slightly lower credit utilization than Medium/High-risk customers.
 
 #### Model Validation
   
