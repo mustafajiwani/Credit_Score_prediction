@@ -21,9 +21,17 @@ The dataset used for this project is publicly available on Kaggle:
 - Create interactive Tableau dashboards to visualize findings.
 - Discuss model performance and potential business use cases.
 
+# 🛠 Tools & Technologies
+- Python: For data cleaning, exploratory data analysis (EDA), and machine learning (scikit-learn, pandas, seaborn, matplotlib).
+- SQL (MySQL): For querying and analyzing large datasets, including joins, aggregations, and window functions.
+- Tableau: For creating interactive visualizations and dashboards.
+- GitHub: for version control
+
 # 📂 Project Structure
 - `Credit_data_analysis` – All SQL queries used for analysis
 - `Credit_Score_analysis_II` – Python code for EDA and ML
 - `Credit Score Classification and Analysis Portfolio` – Tableau workbook with all dashboards
 - `dashboard_screenshots` – PNG snapshots of the Tableau dashboards
 - `pythonplots` - PNG snapshots of significant python visualizations
+
+
