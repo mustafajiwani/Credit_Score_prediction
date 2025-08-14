@@ -1,5 +1,6 @@
 # Credit Score Classification Project
 A complete, reproducible workflow that goes from data cleaning and modeling in Python, to SQL-based EDA for original vs. predicted credit scores, and Tableau dashboards for executive‑level storytelling.
+
 # 📌 Project Overview
 - This project focuses on analyzing customer financial and demographic data to classify credit scores and identify factors that influence them.
 - The dataset contains features such as age, bank accounts, loans, payment history, and annual income.
@@ -15,4 +16,9 @@ A complete, reproducible workflow that goes from data cleaning and modeling in P
 - Create interactive Tableau dashboards to visualize findings.
 - Discuss model performance and potential business use cases.
 
-
+# 📂 Project Structure
+- `Credit_data_analysis` – All SQL queries used for analysis
+- `Credit_Score_analysis_II` – Python code for EDA and ML
+- `Credit Score Classification and Analysis Portfolio` – Tableau workbook with all dashboards
+- `dashboard_screenshots` – PNG snapshots of the Tableau dashboards
+- `pythonplots` - PNG snapshots of significant python visualizations
