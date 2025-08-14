@@ -6,6 +6,7 @@ The dataset used for this project is publicly available on Kaggle:
 [Credit Score Classification Dataset] ([https://www.kaggle.com/datasets/...](https://www.kaggle.com/datasets/parisrohan/credit-score-classification))
 
 # 📌 Project Overview
+- Classify customers into credit score categories (e.g., Poor / Standard / Good). Because the public test set does not include original credit scores, we validate predictions by checking whether predicted scores in the test set preserve the same relationships seen in the train set across demographics and financial behaviors.
 - This project focuses on analyzing customer financial and demographic data to classify credit scores and identify factors that influence them.
 - The dataset contains features such as age, bank accounts, loans, payment history, and annual income.
 - I explored the data, cleaned and prepared it, performed feature selection, and built a Random Forest Classifier to predict credit scores.
