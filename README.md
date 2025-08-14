@@ -35,4 +35,15 @@ The dataset used for this project is publicly available on Kaggle:
 - Discuss model performance and potential business use cases.
 
 ## 🔍 Key Insights
-
+**Python & Machine Learning Findings**
+- Random Forest Classifier was trained on reduced features after feature selection (ANOVA, Chi-square, VIF, feature importance).
+- Achieved strong accuracy and F1-score on training data, showing the model can effectively classify credit scores into Good, Standard, and Poor categories.
+- Validation Accuracy: [78%]. See
+- Top predictive features included:
+`Outstanding_Debt`
+`Interest_Rate`
+`Credit_Mix`
+`Credit_History_Age`
+`Delay_from_due_date`
+`Changed_Credit_Limit`
+`Monthly_Inhand_Salary`
