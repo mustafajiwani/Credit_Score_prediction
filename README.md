@@ -6,7 +6,7 @@ The dataset used for this project is publicly available on Kaggle:
 [Credit Score Classification Dataset] ([https://www.kaggle.com/datasets/...](https://www.kaggle.com/datasets/parisrohan/credit-score-classification))
 
 ## 🛠 Tools Used
-- **Python**: For data cleaning, exploratory data analysis (EDA), and machine learning (scikit-learn, pandas, seaborn, matplotlib).
+- **Python**: For data cleaning, exploratory data analysis (EDA), and machine learning (scikit-learn, pandas, seaborn, matplotlib). 
 - **SQL (MySQL)**: For querying and analyzing large datasets, including joins, aggregations, and window functions.
 - **Tableau**: For creating interactive visualizations and dashboards.
 - **GitHub**: For version control
@@ -52,7 +52,6 @@ The dataset used for this project is publicly available on Kaggle:
 ### Tableau Observations
 
 #### Demographics & Financial Profiles
-  
 - **Age Distribution**: Customers aged 30–40 are the largest group (34.2%), followed by 18–30 (31.8%).
 - **Occupation**: Lawyers are slightly overrepresented, but other occupations are fairly balanced.
 - **Income**: Majority of customers earn <50k annually (62.7%).
@@ -60,7 +59,6 @@ The dataset used for this project is publicly available on Kaggle:
 - **Credit Utilization**: Most customers fall in moderate usage (30–60%), with 36.5% in low usage (<30%).
 
 #### Credit Score Distribution & Predictive Alignment
-
 - **Overall**: Standard credit score is most common; distribution is preserved between train and predicted test sets.
     - Poor: 28.99% (Train) | 27.70% (Test)
     - Standard: 53.15% | 56.05%
@@ -70,7 +68,6 @@ The dataset used for this project is publicly available on Kaggle:
 - **By Income**: Higher income (100k–500k) → higher Good score percentage.
 
 #### Behavioral & Risk Indicators
-  
 - **Repayment Delays**: Good credit scores correlate with fewer delayed payments; Poor scores correlate with more delays.
 - **Spending & Debt**: Good scores → higher salary, lower debt; Poor scores → lower salary, higher debt.
 - **Credit Utilization**: Majority of customers have low utilization corresponding with better scores.
@@ -80,7 +77,6 @@ The dataset used for this project is publicly available on Kaggle:
 - **High-Risk vs Low-Risk Habits**: Low-risk (Good score) customers have fewer delayed payments, fewer loans, and slightly lower credit utilization than Medium/High-risk customers.
 
 #### Model Validation
-  
 - Random Forest model validated with accuracy/confusion matrix on train/validation sets.
 - Side-by-side analysis in SQL + Tableau confirms behavioral patterns and distributions of predicted test set align with original train data.
 
@@ -91,3 +87,20 @@ The dataset used for this project is publicly available on Kaggle:
 - SQL provides auditable, slice‑wise comparisons of original vs. predicted credit scores.
 - Tableau communicates the findings through clear dashboards that confirm whether predictions behave like labeled data across demographics and behaviors.
 - In absence of ground‑truth labels for the test set, this combined approach gives a responsible and transparent qualitative validation of predictions.
+
+## ⚠️ Limitations & Next Steps
+- Test labels are unavailable; evaluation relies on distributional/behavioral alignment.
+- Consider probability calibration and periodic drift checks as new data arrives.
+- Test additional models (e.g., XGBoost, LightGBM) for comparison.
+- Perform PSI (Population Stability Index) analysis to monitor model drift over time.
+- Automate pipeline for real-time credit score classification.
+- Expand dataset with external economic indicators.
+
+## 📈 Dashboards
+View full Tableau dashboards here:
+👉 [Tableau Public Workbook] (https://public.tableau.com/app/profile/mustafa.jiwani/viz/CreditScoreClassificationandAnalysis/FinancialProfile)
+
+## 👤 Author
+Mustafa Jiwani – Data Analyst
+📫 [Connect with me on LinkedIn] (www.linkedin.com/in/mustamahemud-448318230)
+ 
