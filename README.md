@@ -1,6 +1,10 @@
 # Credit Score Classification Project
 A complete, reproducible workflow that goes from data cleaning and modeling in Python, to SQL-based EDA for original vs. predicted credit scores, and Tableau dashboards for executive‑level storytelling.
 
+## Dataset
+The dataset used for this project is publicly available on Kaggle:  
+[Credit Score Classification Dataset]([https://www.kaggle.com/datasets/...](https://www.kaggle.com/datasets/parisrohan/credit-score-classification)).
+
 # 📌 Project Overview
 - This project focuses on analyzing customer financial and demographic data to classify credit scores and identify factors that influence them.
 - The dataset contains features such as age, bank accounts, loans, payment history, and annual income.
